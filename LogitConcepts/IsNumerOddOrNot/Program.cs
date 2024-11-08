@@ -2,7 +2,7 @@
 
 do
 {
-    Console.Write("Ingrese un número entero o la palabra 'S' para salir: ");
+    Console.Write("Ingrese un número entero, o la palabra 'S' para salir: ");
     numberString = Console.ReadLine();
 
     if (numberString!.ToLower() == "s")
@@ -10,7 +10,7 @@ do
         continue;
     }
 
-    var numberInt = 0; 
+    var numberInt = 0;
     if (int.TryParse(numberString, out numberInt))
     {
         if (numberInt % 2 == 0)

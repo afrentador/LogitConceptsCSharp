@@ -5,7 +5,15 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{999660AF-E0B8-44AE-8E37-C10248F17135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsNumerOddOrNot", "IsNumerOddOrNot\IsNumerOddOrNot.csproj", "{4270F61A-280E-4DE9-8074-61D8FCEFF1F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsNumerOddOrNot", "IsNumerOddOrNot\IsNumerOddOrNot.csproj", "{4270F61A-280E-4DE9-8074-61D8FCEFF1F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{0EE38E5C-DC8F-43C7-BCCB-9C3E55A73AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGreathesNumber", "TheGreathesNumber\TheGreathesNumber.csproj", "{0A0D13D5-8BF3-4AAC-8B74-6DE655ED4F41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{C644B952-D712-407A-B1C8-A6C278CF0FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "ConsoleExtension\Shared.csproj", "{BC7FB902-A1FD-449B-BACB-4C3D28D68DFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +25,22 @@ Global
 		{4270F61A-280E-4DE9-8074-61D8FCEFF1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4270F61A-280E-4DE9-8074-61D8FCEFF1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4270F61A-280E-4DE9-8074-61D8FCEFF1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0D13D5-8BF3-4AAC-8B74-6DE655ED4F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0D13D5-8BF3-4AAC-8B74-6DE655ED4F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0D13D5-8BF3-4AAC-8B74-6DE655ED4F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0D13D5-8BF3-4AAC-8B74-6DE655ED4F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7FB902-A1FD-449B-BACB-4C3D28D68DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7FB902-A1FD-449B-BACB-4C3D28D68DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7FB902-A1FD-449B-BACB-4C3D28D68DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7FB902-A1FD-449B-BACB-4C3D28D68DFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4270F61A-280E-4DE9-8074-61D8FCEFF1F3} = {999660AF-E0B8-44AE-8E37-C10248F17135}
+		{0A0D13D5-8BF3-4AAC-8B74-6DE655ED4F41} = {0EE38E5C-DC8F-43C7-BCCB-9C3E55A73AED}
+		{BC7FB902-A1FD-449B-BACB-4C3D28D68DFD} = {C644B952-D712-407A-B1C8-A6C278CF0FE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F7830FB-C0BF-4354-98C0-0E0F28F996B3}
