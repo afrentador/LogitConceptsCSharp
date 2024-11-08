@@ -2,10 +2,10 @@
 
 do
 {
-    Console.Write("Ingrese un número entero o la palabra 'Salir' para salir: ");
+    Console.Write("Ingrese un número entero o la palabra 'S' para salir: ");
     numberString = Console.ReadLine();
 
-    if (numberString!.ToLower() == "salir")
+    if (numberString!.ToLower() == "s")
     {
         continue;
     }
@@ -26,5 +26,5 @@ do
     {
         Console.WriteLine($"Lo que ingresaste: {numberString}, no es un número entero.");
     }
-} while (numberString!.ToLower() != "salir");
+} while (numberString!.ToLower() != "s");
 Console.WriteLine("Game Over.");
