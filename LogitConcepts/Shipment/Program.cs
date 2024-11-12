@@ -28,8 +28,8 @@ do
         promotion = CalculatePromotion(fare, isMonday, payMethod, value);
     }
 
-    Console.WriteLine($"tarifa........................: {fare,20:C2}");
-    Console.WriteLine($"descuento.....................: {discount,20:C2}");
+    Console.WriteLine($"Tarifa........................: {fare,20:C2}");
+    Console.WriteLine($"Descuento.....................: {discount,20:C2}");
     Console.WriteLine($"Promotion.....................: {promotion,20:C2}");
     Console.WriteLine($"Total a Pagar.................: {fare - discount - promotion,20:C2}");
 
