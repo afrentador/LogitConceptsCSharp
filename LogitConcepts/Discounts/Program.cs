@@ -24,7 +24,10 @@ do
     Console.WriteLine($"El valor a pagar es: {valueToPay:C2}");
 
     var valueToDiscount = desks * 650000M * (decimal)(1 - discount);
-    Console.WriteLine($"El valor a pagar es: {valueToDiscount:C2}");    
+    Console.WriteLine($"El valor total a pagar es: {valueToDiscount:C2}");    
+
+    var totalDiscount = valueToDiscount - (desks * 650000M);
+    Console.WriteLine($"Descuento generado: {totalDiscount:C2}");
 
     do
     {
