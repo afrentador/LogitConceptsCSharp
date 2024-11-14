@@ -15,7 +15,7 @@ do
     // VOL = "Volumen litros"
     // MA = "Medio de Almacenamiento"
 
-    var CC = ConsoleExtension.GetDecimal("Costo de Comprea ($)..................................................: ");
+    var CC = ConsoleExtension.GetDecimal("Costo de Compra ($)...................................................: ");
 
     var tpOptions = new List<string> { "p", "n" };
     var TP = string.Empty;
