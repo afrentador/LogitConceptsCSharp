@@ -5,10 +5,10 @@ var options = new List<string> { "s", "n" };
 
 do
 {
-    Console.WriteLine("***** CÁLCULO DEL NÚMERO");
+    Console.WriteLine("***** CÁLCULO DEL NÚMERO 'E' *****");
     var n = ConsoleExtension.GetInt("Cuantos Términos de Precisión Quieres: ");
     var e = CalculateE(n);  
-    Console.WriteLine($"El Valor de e con {n} términos de precisión es: {e}");
+    Console.WriteLine($"El Valor de 'E' con: {n} términos de precisión es: {e}");
 
     do
     {
